@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,7 @@
  <body>
 
  <header class="header">
+    <div class="container header-container">
     <nav class="menu-navigation">
     <a href="./index.html" class="header-logo link">WEB<span class="header-logo-studio link">Studio</span></a>
     
@@ -27,15 +29,19 @@
         <li class="header-address-item"><a href="tel:+110001111111" class="header-address link">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+    </div>
  </header>
  <main>
 <section class="main-section">
+    <div class="container">
  <h1 class="main-title">Effective Solutions
 for Your Business</h1>
 <button class="one-button" type="button"><span class="button-title">Order Service</span></button>
+</div>
 </section>
-<section>
+<section class="advantages-section">
     <h2 hidden>Advantages</h2>
+    <div class="container">
 <ul class="advatanges list">
     <li>
 <h3 class="advantages-title">Strategy</h3>
@@ -54,8 +60,10 @@ problem to walk away with the perfect and creative solution.</p></li>
 <p class="advatanges-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
 </li>
 </ul>
+</div>
 </section>
-    <section>
+    <section class="activity-section">
+        <div class="container">
         <h2 class="section-title">What Are We Doing</h2>
         <ul class="section-item list">
             <li><img src="./images/img-1.jpg" 
@@ -74,6 +82,7 @@ problem to walk away with the perfect and creative solution.</p></li>
         </ul>
     </section>
     <section class="team-section">
+    <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
             <li class="team-list-section">
@@ -81,38 +90,49 @@ problem to walk away with the perfect and creative solution.</p></li>
                 alt="Product Designer"
                 width="264"
                  height="260">
+                 <div class="team-card-content ">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
+                </div>
             </li>
             <li class="team-list-section">
                 <img src="./images/img-team-2.jpg"
                  alt="Frontend Developer"
                   width="264"
                  height="260">
+                 <div class="team-card-content ">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
+                </div>
             </li>
             <li class="team-list-section"><img src="./images/img-team-3.jpg"
                 alt="Marketing"
                  width="264"
                  height="260">
+                 <div class="team-card-content ">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
+                </div>
             </li>
             <li class="team-list-section">
                 <img src="./images/img-team-4.jpg"
                  alt="UI Designer"
                   width="264"
                  height="260">
+                 <div class="team-card-content ">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
+                </div>
             </li>
         </ul>
+    </div>
     </section>
  </main>
 <footer class="footer">  
+    <div class="container">
     <a href="./index.html" class="header-logo link">WEB<span class="header-logo-studio-footer link">Studio</span></a>
     <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
 </footer>
 </body>
 </html>
