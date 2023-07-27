@@ -27,8 +27,9 @@ footer{
 }
 .container{
     max-width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
+    
 }
 .header-container{
     display: flex;
@@ -119,7 +120,7 @@ text-align: left;
 color: #434455;
 text-decoration: none;
 display: block;
-padding: 24px,0;
+padding: 24px 0 24px;
 }
 .menu-navigation{
     display: flex;
