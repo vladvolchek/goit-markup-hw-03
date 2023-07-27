@@ -348,7 +348,7 @@ max-width: 264px;
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.visually-hidden {
+visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
