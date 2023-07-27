@@ -60,7 +60,8 @@ footer{
  color: #4D5AE5;
  text-decoration: none;
  text-transform: uppercase;
- padding: 24px,0;
+ padding-top: 24px;
+  padding-bottom: 24px;
  margin-right: 76px;
  margin-top: 0;
     margin-bottom: 0;
