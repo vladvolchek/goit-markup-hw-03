@@ -222,6 +222,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: left;
 color: #2E2F42;
+margin-bottom: 8px;
 
 }
 .advatanges-text{
@@ -237,6 +238,7 @@ color: #434455;
     list-style: none;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 .section-text{
 font-family: Roboto;
@@ -263,7 +265,7 @@ color: #2E2F42;
     gap: 24px;
 }
 .activity-section{
-    padding-bottom: 120px
+    padding-bottom: 120px;
 }
 .team-section{
     background-color: #F4F4FD;
@@ -337,7 +339,7 @@ max-width: 264px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px
+    margin-bottom: 72px;
 }
 
 .portfolio-section{
