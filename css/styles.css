@@ -415,7 +415,10 @@ background: var(--cloud, #F4F4FD);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+}
+.team-list-section{
+    width: calc((100% - 48px) / 3);
 }
 .main-section.list{
     list-style: none;
