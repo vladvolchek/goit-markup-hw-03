@@ -163,7 +163,7 @@ padding: 24px 0 24px;
     color: #ffffff;
     background-color: #2E2F42;
     width: 1440px;
-    padding: 188px 0;
+    
 
  flex-shrink: 0;
  
@@ -196,8 +196,6 @@ padding: 24px 0 24px;
  border-radius: 4px;
  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  border: none;
- display: block;
- max-width: 169px;
 
 }
 .one-button:hover{
