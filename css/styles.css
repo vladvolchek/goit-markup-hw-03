@@ -380,9 +380,12 @@ border: 1px solid var(--cornflower, #E7E9FC);
 background: var(--cloud, #F4F4FD);
 }
 .button-all:hover{
-    color: #FFFFFF; background-color: #404BBF;}
+    color: #FFFFFF; background-color: #404BBF;
+ border: 1px solid transparent;
+}
     .button-all:focus{
        color: #FFFFFF; background-color: #404BBF; 
+       border: 1px solid transparent;
     }
 .section-picture-title{   
  font-family: Roboto;
@@ -415,4 +418,5 @@ background: var(--cloud, #F4F4FD);
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    width: calc((100% - 48px) / 3);
 }
