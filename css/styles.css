@@ -238,7 +238,9 @@ color: #434455;
     list-style: none;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+}
+.advatanges-list-section{
+    flex-basis: calc((100% - 72px) / 4);
 }
 .section-text{
 font-family: Roboto;
