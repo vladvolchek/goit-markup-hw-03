@@ -396,6 +396,7 @@ background: var(--cloud, #F4F4FD);
  text-align: left;
  color: #2E2F42;
  text-decoration: none;
+ margin-bottom: 8px;
 }
 .section-picture-text{  
  font-family: Roboto;
