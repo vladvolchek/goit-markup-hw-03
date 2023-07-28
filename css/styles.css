@@ -410,7 +410,7 @@ background: var(--cloud, #F4F4FD);
 }
 .main-section-link{
     text-decoration: none;
-    width: calc((1128px - 48px) / 3);
+    width: calc( (1128px - 48px) / 3);
    
 }
 
@@ -422,6 +422,8 @@ background: var(--cloud, #F4F4FD);
 }
 
 .main-section.list{
+    list-style: none;
+    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
