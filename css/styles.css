@@ -409,7 +409,7 @@ background: var(--cloud, #F4F4FD);
  text-decoration: none;
 }
 .main-section-link{
-    text-decoration: none;
+  
     width: calc( (1128px - 48px) / 3);
    
 }
